@@ -15,7 +15,7 @@ public class Main {
 		 * */
 		
 //		MyClass2.exp1(); // 8.2.1 使用finally
-//		MyClass2.exp2(); // 8.2.2 自动尝试关闭资源
+		MyClass2.exp2(); // 8.2.2 自动尝试关闭资源
 		MyClass2.exp3(); // 8.2.3 java.lang.AutoCloseable 接口
 	}
 	
@@ -30,7 +30,7 @@ public class Main {
 //		MyClass.exp1(); // 8.1.1 使用try、catch
 //		MyClass.exp2(); // 8.1.2 继承异常架构
 //		MyClass.exp3(); // 8.1.3 要抓还是要抛
-//		MyClass.exp4(); // 8.1.4 认识堆栈追踪
+		MyClass.exp4(); // 8.1.4 认识堆栈追踪
 		MyClass.exp5(); // 8.1.5 关于assert
 	}
 
